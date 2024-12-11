@@ -6,18 +6,17 @@
   background: #edfffc;
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
   justify-content: center;
-  height: 4946.86px;
   position: relative;
-  overflow: hidden;
+  width: 100%;
 }
 .slides {
   align-self: stretch;
   flex-shrink: 0;
   height: 600px;
   position: static;
+  margin-bottom: 10%;
 }
 .slide {
   width: 100%;
@@ -155,10 +154,9 @@
   overflow: visible;
 }
 .menu {
-  padding: 40px 0px 40px 0px;
   display: flex;
   flex-direction: row;
-  gap: 19px;
+  gap: 5%;
   align-items: center;
   justify-content: center;
   align-self: stretch;
@@ -372,77 +370,56 @@
   overflow: visible;
 }
 .twit {
-  padding: 39px 76px 67px 76px;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
   flex: 1;
-  position: relative;
+  position:relative;
 }
-.frame-2 {
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex: 1;
-  position: relative;
-  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-}
-.lagi-pengen-beli-apa-hari-ini {
+.twit-text {
   color: #ffffff;
   text-align: left;
   font-family: "AlbertSans-Black", sans-serif;
   font-size: 50px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
   position: relative;
   -webkit-text-stroke: 1px #22ba78;
 }
-.twit2 {
+.twit-isi {
   display: flex;
   flex-direction: row;
-  gap: 24px;
+  gap: 3%;
   align-items: center;
   justify-content: center;
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
 }
-.testimonial-card {
-  background: var(--var-sds-color-background-default-default, #ffffff);
+.nanya-container {
+  /*Border*/
+  background: #ffffff;
   border-radius: 8px;
   border-style: solid;
-  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-color: #d9d9d9;
   border-width: 1px;
-  padding: 24px;
+
+  padding: 2%;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-shrink: 0;
   width: 385px;
   height: 379px;
   min-width: 240px;
   position: relative;
 }
-.text-heading {
-  padding: 0px 0px 103px 0px;
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  flex-shrink: 0;
-  position: relative;
-}
-.halo-min-saya-lagi-nyari-baju-lokal-yang-bagus-dan-nyaman-ada-ga-ya-prefer-yang-corak-unik-dan-beragam {
+.testi-text {
+  margin-bottom: 30%;
   color: var(--var-sds-color-text-default-default, #1e1e1e);
   text-align: left;
   font-family: var(
@@ -528,7 +505,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.product-info-card {
+.twit-product {
   background: var(--var-sds-color-background-default-default, #ffffff);
   border-radius: 8px;
   border-style: solid;
@@ -781,7 +758,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.product-info-card2 {
+.kelas-product {
   background: var(--var-sds-color-background-default-default, #ffffff);
   border-radius: 11px;
   border-style: solid;
@@ -847,24 +824,6 @@
   font-weight: var(--var-sds-typography-body-font-weight-regular, 400);
   position: relative;
   flex: 1;
-}
-.product-info-card3 {
-  background: var(--var-sds-color-background-default-default, #ffffff);
-  border-radius: 11px;
-  border-style: solid;
-  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
-  border-width: 1px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-shrink: 0;
-  width: 376px;
-  height: 307px;
-  min-width: 240px;
-  position: relative;
 }
 .image3 {
   border-radius: 5px;
