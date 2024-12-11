@@ -1,0 +1,1748 @@
+.beranda,
+.beranda * {
+  box-sizing: border-box;
+}
+.beranda {
+  background: #edfffc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 4946.86px;
+  position: relative;
+  overflow: hidden;
+}
+.slides {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 600px;
+  position: static;
+}
+.slide {
+  width: 100%;
+  height: 12%;
+  position: absolute;
+  right: 0.13%;
+  left: 0.07%;
+  bottom: 87.84%;
+  top: 0%;
+  object-fit: cover;
+}
+.gradient1 {
+  background: linear-gradient(
+    0deg,
+    #edfffc 0%,
+    rgba(217, 217, 217, 0) 100%
+  );
+  width: 100%;
+  height: 2%;
+  position: absolute;
+  bottom: 90%;
+  top: 10%;
+}
+.next {
+  border-radius: 0px;
+  width: 4%;
+  height: 2%;
+  position: absolute;
+  right: 0%;
+  left: 97%;
+  top: 5%;
+  overflow: visible;
+}
+.prev {
+  border-radius: 0px;
+  width: 4.04%;
+  height: 2.13%;
+  position: absolute;
+  right: 97%;
+  top: 5%;
+  overflow: visible;
+}
+.navbar {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 217, 181, 1) 0%,
+    rgba(46, 217, 208, 0.94) 70%,
+    rgba(174, 243, 255, 0) 100%
+  );
+  padding: 0px 24px 23px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 2%;
+  position: absolute;
+  top: 0%;
+}
+.logo {
+  width: 10%;
+  height: 2,5%;
+  position: absolute;
+  object-fit: cover;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.search-input {
+  background: #c0f2e1;
+  border-radius: 32px;
+  flex-shrink: 0;
+  width: 25%;
+  height: 80%;
+  position: absolute;
+}
+.search-bar {
+  flex-shrink: 0;
+  width: 100%;
+  height: 31.41px;
+  position: static;
+}
+.rectangle-11 {
+  background: #c0f2e1;
+  border-radius: 32px;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  right: 29.08%;
+  left: 66.61%;
+  bottom: 0%;
+  top: 0%;
+}
+.search2 {
+  width: 1.78%;
+  height: 66.85%;
+  position: absolute;
+  right: 30.28%;
+  left: 67.93%;
+  bottom: 16.5%;
+  top: 16.65%;
+  overflow: visible;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  position: static;
+}
+.login-account {
+  background: #c0f2e1;
+  border-radius: 50%;
+  width: 3.2%;
+  height: 47.24%;
+  position: absolute;
+  right: 1.67%;
+  left: 95.14%;
+  bottom: 38.19%;
+  top: 14.57%;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+._3-menu {
+  width: 2.51%;
+  height: 37.18%;
+  position: absolute;
+  right: 1.98%;
+  left: 95.5%;
+  bottom: 43.61%;
+  top: 19.21%;
+  overflow: visible;
+}
+.menu {
+  padding: 40px 0px 40px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.prev2 {
+  background: #00d9b5;
+  border-radius: 16px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 77.76px;
+  height: 80.31px;
+  position: relative;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left {
+  flex-shrink: 0;
+  width: 54.63px;
+  height: 57.81px;
+  position: relative;
+  overflow: visible;
+}
+.catalog {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  row-gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-shrink: 0;
+  width: 1158px;
+  height: 371px;
+  position: relative;
+}
+.gaya {
+  flex-shrink: 0;
+  width: 565.67px;
+  height: 163.37px;
+  position: static;
+}
+.menu-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 217, 183, 0) 0%,
+    rgba(46, 217, 183, 0.7) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #e2ffbe;
+  border-width: 3px;
+  width: 565.67px;
+  height: 163.37px;
+  position: absolute;
+  left: 8.33px;
+  top: 14.13px;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.gaya-hidup {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 29.96px;
+  top: 102.24px;
+  width: 435.92px;
+  height: 75.26px;
+  -webkit-text-stroke: 1px rgba(23, 137, 137, 0.68);
+}
+.buah {
+  flex-shrink: 0;
+  width: 565.67px;
+  height: 163.37px;
+  position: static;
+}
+.menu-5 {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 217, 183, 0) 0%,
+    rgba(46, 217, 183, 0.7) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #00d9b5;
+  border-width: 3px;
+  width: 565.67px;
+  height: 163.37px;
+  position: absolute;
+  left: 584px;
+  top: 14.13px;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.buah-sayur {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 602.19px;
+  top: 102.09px;
+  width: 358.22px;
+  height: 75.21px;
+  -webkit-text-stroke: 1px rgba(23, 137, 137, 0.68);
+}
+.produk {
+  flex-shrink: 0;
+  width: 565.67px;
+  height: 163.37px;
+  position: static;
+}
+.menu-3 {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 217, 183, 0) 0%,
+    rgba(46, 217, 183, 0.7) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #00d9b5;
+  border-width: 3px;
+  width: 565.67px;
+  height: 163.37px;
+  position: absolute;
+  left: 8.33px;
+  top: 193.5px;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.produk-olahan {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 29.9px;
+  top: 281.32px;
+  width: 435.99px;
+  height: 75.21px;
+  -webkit-text-stroke: 1px rgba(23, 137, 137, 0.68);
+}
+.jasa {
+  flex-shrink: 0;
+  width: 565.67px;
+  height: 163.37px;
+  position: static;
+}
+.menu-4 {
+  background: linear-gradient(
+    180deg,
+    rgba(46, 217, 183, 0) 0%,
+    rgba(46, 217, 183, 0.7) 100%
+  );
+  border-radius: 14px;
+  border-style: solid;
+  border-color: #00d9b5;
+  border-width: 2px;
+  width: 565.67px;
+  height: 163.37px;
+  position: absolute;
+  left: 584px;
+  top: 193.5px;
+  box-shadow: 3px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.jasa2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: absolute;
+  left: 602.21px;
+  top: 281.61px;
+  width: 182.11px;
+  height: 75.26px;
+  -webkit-text-stroke: 1px rgba(23, 137, 137, 0.68);
+}
+.next2 {
+  background: #00d9b5;
+  border-radius: 16px;
+  padding: 7px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 69.43px;
+  height: 75.88px;
+  position: relative;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-right {
+  flex-shrink: 0;
+  width: 54.63px;
+  height: 57.81px;
+  position: relative;
+  overflow: visible;
+}
+.twit {
+  padding: 39px 76px 67px 76px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.lagi-pengen-beli-apa-hari-ini {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  position: relative;
+  -webkit-text-stroke: 1px #22ba78;
+}
+.twit2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.testimonial-card {
+  background: var(--var-sds-color-background-default-default, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 385px;
+  height: 379px;
+  min-width: 240px;
+  position: relative;
+}
+.text-heading {
+  padding: 0px 0px 103px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.halo-min-saya-lagi-nyari-baju-lokal-yang-bagus-dan-nyaman-ada-ga-ya-prefer-yang-corak-unik-dan-beragam {
+  color: var(--var-sds-color-text-default-default, #1e1e1e);
+  text-align: left;
+  font-family: var(
+    --var-sds-typography-heading-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: 24.000001907348633px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  font-weight: var(--var-sds-typography-heading-font-weight, 600);
+  position: relative;
+  flex: 1;
+}
+.avatar-block {
+  padding: 31px 0px 31px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 139px;
+  position: relative;
+}
+.avatar {
+  border-radius: 10129.78px;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.shape {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.prilly-latuconsina {
+  color: var(--var-sds-color-text-default-secondary, #757575);
+  text-align: left;
+  font-family: var(
+    --var-sds-typography-body-font-family,
+    "Inter-SemiBold",
+    sans-serif
+  );
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: var(--var-sds-typography-body-font-weight-strong, 600);
+  position: relative;
+  width: 152px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shopper-setia-warunk {
+  color: var(--var-sds-color-text-default-tertiary, #b3b3b3);
+  text-align: left;
+  font-family: var(
+    --var-sds-typography-body-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: var(--var-sds-typography-body-font-weight-regular, 400);
+  position: relative;
+  width: 173px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.product-info-card {
+  background: var(--var-sds-color-background-default-default, #ffffff);
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  min-width: 240px;
+  position: relative;
+}
+.image {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 247px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 208px;
+  position: relative;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+._3-d-avatars-1 {
+  flex-shrink: 0;
+  width: 25.45px;
+  height: 25px;
+  position: relative;
+}
+.avatars-3-d-avatar-1 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 208px;
+  height: 22px;
+  position: relative;
+}
+.text2 {
+  color: var(--var-sds-color-text-default-default, #1e1e1e);
+  text-align: left;
+  font-family: var(--body-base-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-base-font-size, 16px);
+  line-height: var(--body-base-line-height, 140%);
+  font-weight: var(--body-base-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.text-strong {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-strong2 {
+  color: var(--var-sds-color-text-default-default, #1e1e1e);
+  text-align: left;
+  font-family: var(--body-strong-font-family, "Inter-SemiBold", sans-serif);
+  font-size: var(--body-strong-font-size, 16px);
+  line-height: var(--body-strong-line-height, 140%);
+  font-weight: var(--body-strong-font-weight, 600);
+  position: relative;
+}
+.text-small {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 208px;
+  position: relative;
+}
+.text-small2 {
+  color: var(--var-sds-color-text-default-secondary, #757575);
+  text-align: left;
+  font-family: var(--body-small-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-small-font-size, 14px);
+  line-height: var(--body-small-line-height, 140%);
+  font-weight: var(--body-small-font-weight, 400);
+  position: relative;
+}
+._3-d-avatars-10 {
+  border-radius: 180px;
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.avatars-3-d-avatar-10 {
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._3-d-avatars-12 {
+  flex-shrink: 0;
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.avatars-3-d-avatar-12 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.text3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 175px;
+  position: relative;
+}
+.review {
+  padding: 39px 76px 67px 76px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.frame-22 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 100px;
+  position: relative;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.mari-belajar-bersama-para-ahli {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  position: relative;
+  -webkit-text-stroke: 1px #22ba78;
+}
+.catalog2 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.prev3 {
+  flex-shrink: 0;
+  width: 65.03px;
+  height: 67.17px;
+  position: static;
+}
+.prev4 {
+  background: #00d9b5;
+  border-radius: 17.06px;
+  width: 65.03px;
+  height: 67.17px;
+  position: absolute;
+  left: -29.17px;
+  top: 117.99px;
+  box-shadow: 4.26px 4.26px 4.26px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left2 {
+  width: 48.24px;
+  height: 51.05px;
+  position: absolute;
+  left: -23.21px;
+  top: 126.26px;
+  overflow: visible;
+}
+.twit3 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-info-card2 {
+  background: var(--var-sds-color-background-default-default, #ffffff);
+  border-radius: 11px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 374px;
+  height: 307px;
+  min-width: 240px;
+  position: relative;
+}
+.image2 {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 342px;
+  height: 199px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.body2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 327px;
+  position: relative;
+}
+.text4 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 293px;
+  height: 22px;
+  position: relative;
+}
+.kelas-public-speaking-with-mimi-peri {
+  color: var(--var-sds-color-text-default-default, #1e1e1e);
+  text-align: left;
+  font-family: var(
+    --var-sds-typography-body-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: var(--var-sds-typography-body-font-weight-regular, 400);
+  position: relative;
+  flex: 1;
+}
+.product-info-card3 {
+  background: var(--var-sds-color-background-default-default, #ffffff);
+  border-radius: 11px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 376px;
+  height: 307px;
+  min-width: 240px;
+  position: relative;
+}
+.image3 {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 344px;
+  height: 199px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.next3 {
+  flex-shrink: 0;
+  width: 61.3px;
+  height: 67px;
+  position: static;
+}
+.next4 {
+  background: #00d9b5;
+  border-radius: 16px;
+  width: 61.3px;
+  height: 67px;
+  position: absolute;
+  left: 1255.87px;
+  top: 118.07px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-right2 {
+  width: 48.24px;
+  height: 51.05px;
+  position: absolute;
+  left: 1262.9px;
+  top: 127.64px;
+  overflow: visible;
+}
+.catalog-1 {
+  padding: 39px 76px 39px 76px;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.shop {
+  flex-shrink: 0;
+  width: 493.37px;
+  height: 477px;
+  position: relative;
+  overflow: visible;
+}
+.caption {
+  flex-shrink: 0;
+  width: 717.14px;
+  height: 477px;
+  position: static;
+}
+.rectangle-17 {
+  background: linear-gradient(
+    270deg,
+    rgba(147, 245, 203, 1) 0%,
+    rgba(0, 217, 181, 1) 38.499999046325684%,
+    rgba(0, 217, 181, 1) 100%
+  );
+  border-radius: 24px;
+  width: 717.14px;
+  height: 354.75px;
+  position: absolute;
+  left: 619.62px;
+  top: 150.32px;
+}
+.dari-ladang-ke-meja-anda-nikmati-kesegaran-sayur-dan-buah-berkualitas-terbaik-yang-langsung-dipetik-dari-tangan-petani-lokal-setiap-produk-kami-dipanen-dengan-penuh-perhatian-untuk-memastikan-anda-mendapatkan-hasil-bumi-yang-sehat-alami-dan-penuh-nutrisi-buah-buahan-rasakan-manisnya-buah-buahan-segar-matang-sempurna-dan-penuh-vitamin-mulai-dari-apel-renyah-jeruk-segar-hingga-mangga-manis-semua-dipilih-langsung-dari-kebun-terbaik-untuk-menjaga-rasa-autentik-dan-kesegarannya {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  left: 647px;
+  top: 171.07px;
+  width: 661px;
+  height: 301px;
+}
+.rectangle-18 {
+  background: linear-gradient(
+    270deg,
+    rgba(147, 245, 203, 1) 0%,
+    rgba(0, 217, 181, 1) 38.499999046325684%,
+    rgba(0, 217, 181, 1) 100%
+  );
+  border-radius: 26px;
+  width: 717.14px;
+  height: 111.34px;
+  position: absolute;
+  left: 619.62px;
+  top: 28.07px;
+}
+.sayuran-dan-buah-pilihan {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 24.000001907348633px;
+  font-weight: 900;
+  position: absolute;
+  left: 657px;
+  top: 71.07px;
+  width: 641.82px;
+  height: 54.58px;
+  -webkit-text-stroke: 1px #22ba78;
+}
+.catalog-2 {
+  padding: 39px 76px 39px 76px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.caption2 {
+  flex-shrink: 0;
+  width: 713.53px;
+  height: 474.6px;
+  position: static;
+}
+.rectangle-172 {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 217, 181, 1) 0%,
+    rgba(0, 217, 181, 1) 64.99999761581421%,
+    rgba(147, 245, 203, 1) 99.98999834060669%
+  );
+  border-radius: 24px;
+  width: 713.53px;
+  height: 352.96px;
+  position: absolute;
+  left: 105.79px;
+  top: 150.91px;
+}
+.rectangle-182 {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 217, 181, 1) 0%,
+    rgba(0, 217, 181, 1) 64.99999761581421%,
+    rgba(147, 245, 203, 1) 99.98999834060669%
+  );
+  border-radius: 26px;
+  width: 713.53px;
+  height: 110.78px;
+  position: absolute;
+  left: 105.79px;
+  top: 29.27px;
+}
+.pakaian-dan-aksesoris-bergaya {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 24.000001907348633px;
+  font-weight: 900;
+  position: absolute;
+  left: 136.2px;
+  top: 72.27px;
+  width: 638.59px;
+  height: 54.3px;
+  -webkit-text-stroke: 1px #22ba78;
+}
+.karya-kreatif-dari-tangan-terampil-temukan-berbagai-pilihan-pakaian-dan-aksesoris-buatan-pengrajin-lokal-yang-penuh-gaya-dan-berkualitas-tinggi-setiap-produk-dirancang-dengan-detail-dan-cinta-memadukan-unsur-tradisional-dan-modern-untuk-penampilan-yang-unik-dan-berkarakter-pakaian-mulai-dari-atasan-kasual-dress-elegan-hingga-pakaian-etnik-dengan-sentuhan-khas-daerah-bahan-berkualitas-nyaman-dipakai-dan-cocok-untuk-segala-suasana-baik-untuk-aktivitas-sehari-hari-maupun-acara-spesial {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  left: 120px;
+  top: 170.27px;
+  width: 661px;
+  height: 301px;
+}
+.shop2 {
+  flex-shrink: 0;
+  width: 490.89px;
+  height: 474.6px;
+  position: static;
+}
+.rectangle-173 {
+  border-radius: 0px;
+  width: 245.45px;
+  height: 324.73px;
+  position: absolute;
+  left: 843.32px;
+  top: 98.78px;
+  overflow: visible;
+}
+.rectangle-183 {
+  border-radius: 0px;
+  width: 245.45px;
+  height: 324.73px;
+  position: absolute;
+  left: 1334.21px;
+  top: 98.78px;
+  overflow: visible;
+}
+.rectangle-15 {
+  border-radius: 0px;
+  width: 357.31px;
+  height: 474.6px;
+  position: absolute;
+  left: 910.65px;
+  top: 29.27px;
+  overflow: visible;
+}
+.rectangle-16 {
+  border-radius: 19px;
+  border-style: solid;
+  border-color: #f6f6f6;
+  border-width: 7px;
+  width: 324.73px;
+  height: 324.73px;
+  position: absolute;
+  left: 926.94px;
+  top: 42.3px;
+  object-fit: cover;
+}
+.ellipse-6 {
+  background: #00d9b5;
+  border-radius: 50%;
+  width: 54.3px;
+  height: 54.3px;
+  position: absolute;
+  left: 1262.88px;
+  top: 260.6px;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-7 {
+  background: #00d9b5;
+  border-radius: 50%;
+  width: 54.3px;
+  height: 54.3px;
+  position: absolute;
+  left: 862.13px;
+  top: 260.6px;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left3 {
+  width: 58.83px;
+  height: 58.83px;
+  position: absolute;
+  left: 860.32px;
+  top: 259.38px;
+  overflow: visible;
+}
+.arrow-right3 {
+  width: 58.83px;
+  height: 58.83px;
+  position: absolute;
+  left: 1261.7px;
+  top: 259.38px;
+  overflow: visible;
+}
+.catalog-3 {
+  padding: 39px 76px 39px 76px;
+  display: flex;
+  flex-direction: row;
+  gap: 23px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.shop3 {
+  flex-shrink: 0;
+  width: 490.06px;
+  height: 473.8px;
+  position: static;
+}
+.rectangle-174 {
+  border-radius: 0px;
+  width: 245.03px;
+  height: 324.18px;
+  position: absolute;
+  left: 107.31px;
+  top: 99.06px;
+  overflow: visible;
+}
+.rectangle-184 {
+  border-radius: 0px;
+  width: 245.03px;
+  height: 324.18px;
+  position: absolute;
+  left: 597.37px;
+  top: 99.06px;
+  overflow: visible;
+}
+.rectangle-152 {
+  border-radius: 0px;
+  width: 356.7px;
+  height: 473.8px;
+  position: absolute;
+  left: 174.53px;
+  top: 29.67px;
+  overflow: visible;
+}
+.rectangle-162 {
+  border-radius: 19px;
+  border-style: solid;
+  border-color: #f6f6f6;
+  border-width: 7px;
+  width: 324.18px;
+  height: 324.18px;
+  position: absolute;
+  left: 190.79px;
+  top: 42.68px;
+  object-fit: cover;
+}
+.ellipse-62 {
+  background: #00d9b5;
+  border-radius: 50%;
+  width: 54.21px;
+  height: 54.21px;
+  position: absolute;
+  left: 525.81px;
+  top: 260.61px;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-72 {
+  background: #00d9b5;
+  border-radius: 50%;
+  width: 54.21px;
+  height: 54.21px;
+  position: absolute;
+  left: 125.74px;
+  top: 260.61px;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left4 {
+  width: 58.74px;
+  height: 58.74px;
+  position: absolute;
+  left: 123.93px;
+  top: 259.39px;
+  overflow: visible;
+}
+.arrow-right4 {
+  width: 58.74px;
+  height: 58.74px;
+  position: absolute;
+  left: 524.63px;
+  top: 259.39px;
+  overflow: visible;
+}
+.caption3 {
+  flex-shrink: 0;
+  width: 712.32px;
+  height: 473.8px;
+  position: static;
+}
+.rectangle-19 {
+  background: linear-gradient(
+    270deg,
+    rgba(147, 245, 203, 1) 0%,
+    rgba(0, 217, 181, 1) 38.499999046325684%,
+    rgba(0, 217, 181, 1) 100%
+  );
+  border-radius: 24px;
+  width: 712.32px;
+  height: 352.37px;
+  position: absolute;
+  left: 620.37px;
+  top: 151.1px;
+}
+.rectangle-185 {
+  background: linear-gradient(
+    270deg,
+    rgba(147, 245, 203, 1) 0%,
+    rgba(0, 217, 181, 1) 100%
+  );
+  border-radius: 26px;
+  width: 712.32px;
+  height: 110.59px;
+  position: absolute;
+  left: 620.37px;
+  top: 29.67px;
+}
+.rectangle-20 {
+  background: linear-gradient(
+    270deg,
+    rgba(147, 245, 203, 1) 0%,
+    rgba(0, 217, 181, 1) 38.499999046325684%,
+    rgba(0, 217, 181, 1) 100%
+  );
+  border-radius: 26px;
+  width: 712.32px;
+  height: 110.59px;
+  position: absolute;
+  left: 620.37px;
+  top: 29.67px;
+}
+.produk-olahan-bermutu {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 24.000001907348633px;
+  font-weight: 900;
+  position: absolute;
+  left: 658px;
+  top: 76.07px;
+  width: 637.51px;
+  height: 54.21px;
+  -webkit-text-stroke: 1px #22ba78;
+}
+.lezat-sehat-dan-siap-dinikmati-kami-menghadirkan-berbagai-produk-olahan-berkualitas-tinggi-yang-dibuat-dari-bahan-bahan-segar-dan-alami-langsung-dari-sumber-terbaik-setiap-produk-diolah-dengan-proses-higienis-dan-standar-kualitas-tinggi-untuk-memastikan-cita-rasa-autentik-dan-nutrisi-tetap-terjaga-produk-olahan-siap-saji-mulai-dari-sambal-tradisional-keripik-renyah-hingga-aneka-camilan-sehat-yang-siap-memanjakan-lidah-anda-cocok-untuk-dinikmati-sendiri-atau-dijadikan-oleh-oleh-khas-daerah {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  left: 647px;
+  top: 176.07px;
+  width: 661px;
+  height: 301px;
+}
+.catalog-4 {
+  padding: 39px 76px 39px 76px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.caption4 {
+  flex-shrink: 0;
+  width: 709.92px;
+  height: 472.2px;
+  position: static;
+}
+.rectangle-175 {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 217, 181, 1) 0%,
+    rgba(0, 217, 181, 1) 64.99999761581421%,
+    rgba(147, 245, 203, 1) 99.98999834060669%
+  );
+  border-radius: 24px;
+  width: 709.92px;
+  height: 351.18px;
+  position: absolute;
+  left: 108.83px;
+  top: 151.49px;
+}
+.rectangle-186 {
+  background: linear-gradient(
+    270deg,
+    rgba(0, 217, 181, 1) 0%,
+    rgba(0, 217, 181, 1) 64.99999761581421%,
+    rgba(147, 245, 203, 1) 99.98999834060669%
+  );
+  border-radius: 26px;
+  width: 709.92px;
+  height: 110.22px;
+  position: absolute;
+  left: 108.83px;
+  top: 30.47px;
+}
+.solusi-tepat-untuk-kebutuhan-anda-kami-menyediakan-berbagai-jasa-profesional-dengan-tenaga-ahli-dan-berpengalaman-setiap-layanan-kami-dirancang-untuk-memberikan-hasil-terbaik-memastikan-kepuasan-dan-membangun-kepercayaan-dengan-pelanggan-layanan-jasa-yang-tersedia-jasa-perbaikan-renovasi-tukang-bangunan-perbaikan-rumah-dan-renovasi-interior-eksterior-jasa-kebersihan-pembersihan-rumah-kantor-atau-tempat-usaha-secara-menyeluruh-dan-profesional {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  position: absolute;
+  left: 134px;
+  top: 167.07px;
+  width: 661px;
+  height: 301px;
+}
+.solusi-tepat-untuk-kebutuhan-anda-kami-menyediakan-berbagai-jasa-profesional-dengan-tenaga-ahli-dan-berpengalaman-setiap-layanan-kami-dirancang-untuk-memberikan-hasil-terbaik-memastikan-kepuasan-dan-membangun-kepercayaan-dengan-pelanggan-layanan-jasa-yang-tersedia-jasa-perbaikan-renovasi-tukang-bangunan-perbaikan-rumah-dan-renovasi-interior-eksterior-jasa-kebersihan-pembersihan-rumah-kantor-atau-tempat-usaha-secara-menyeluruh-dan-profesional-span {
+  color: #ffffff;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.solusi-tepat-untuk-kebutuhan-anda-kami-menyediakan-berbagai-jasa-profesional-dengan-tenaga-ahli-dan-berpengalaman-setiap-layanan-kami-dirancang-untuk-memberikan-hasil-terbaik-memastikan-kepuasan-dan-membangun-kepercayaan-dengan-pelanggan-layanan-jasa-yang-tersedia-jasa-perbaikan-renovasi-tukang-bangunan-perbaikan-rumah-dan-renovasi-interior-eksterior-jasa-kebersihan-pembersihan-rumah-kantor-atau-tempat-usaha-secara-menyeluruh-dan-profesional-span2 {
+  color: #ffffff;
+  list-style-type: disc;
+  padding-left: 1em;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+.frame-23 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 540px;
+  height: 64px;
+  position: absolute;
+  left: 121px;
+  top: 54.07px;
+}
+.jasa-pekerjaan-yang-terpercaya {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AlbertSans-Black", sans-serif;
+  font-size: 24.000001907348633px;
+  font-weight: 900;
+  position: relative;
+  -webkit-text-stroke: 1px #22ba78;
+}
+.shop4 {
+  flex-shrink: 0;
+  width: 488.41px;
+  height: 472.2px;
+  position: static;
+}
+.rectangle-176 {
+  border-radius: 0px;
+  width: 244.21px;
+  height: 323.09px;
+  position: absolute;
+  left: 842.76px;
+  top: 99.63px;
+  overflow: visible;
+}
+.rectangle-187 {
+  border-radius: 0px;
+  width: 244.21px;
+  height: 323.09px;
+  position: absolute;
+  left: 1331.17px;
+  top: 99.63px;
+  overflow: visible;
+}
+.rectangle-153 {
+  border-radius: 0px;
+  width: 355.5px;
+  height: 472.2px;
+  position: absolute;
+  left: 909.75px;
+  top: 30.47px;
+  overflow: visible;
+}
+.rectangle-163 {
+  border-radius: 19px;
+  border-style: solid;
+  border-color: #f6f6f6;
+  border-width: 7px;
+  width: 323.09px;
+  height: 323.09px;
+  position: absolute;
+  left: 925.96px;
+  top: 43.44px;
+  object-fit: cover;
+}
+.ellipse-63 {
+  background: #00d9b5;
+  border-radius: 50%;
+  width: 54.03px;
+  height: 54.03px;
+  position: absolute;
+  left: 1260.2px;
+  top: 260.63px;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.ellipse-73 {
+  background: #00d9b5;
+  border-radius: 50%;
+  width: 54.03px;
+  height: 54.03px;
+  position: absolute;
+  left: 861.47px;
+  top: 260.63px;
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.arrow-left5 {
+  width: 58.54px;
+  height: 58.54px;
+  position: absolute;
+  left: 859.67px;
+  top: 259.42px;
+  overflow: visible;
+}
+.arrow-right5 {
+  width: 58.54px;
+  height: 58.54px;
+  position: absolute;
+  left: 1259.02px;
+  top: 259.42px;
+  overflow: visible;
+}
+.footer {
+  background: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.footer2 {
+  padding: 0px 40px 39px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 460px;
+  position: relative;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.logo2 {
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 206px;
+  height: 57px;
+  position: relative;
+  object-fit: cover;
+}
+._2024-all-rights-reserved {
+  color: #daf4f3;
+  text-align: center;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: relative;
+  width: 253px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.desc {
+  color: #daf4f3;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.desc-span {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.desc-span2 {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.place {
+  color: #daf4f3;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.add {
+  color: #daf4f3;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+  position: relative;
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.add-span {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.add-span2 {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.add-span3 {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.add-span4 {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.add-span5 {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.add-span6 {
+  color: #daf4f3;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.google-play-1 {
+  flex-shrink: 0;
+  width: 204px;
+  height: 62px;
+  position: relative;
+  object-fit: cover;
+}
+.app-store-1 {
+  flex-shrink: 0;
+  width: 204px;
+  height: 62px;
+  position: relative;
+  object-fit: cover;
+}
+.frame-6 {
+  padding: 0px 0px 48px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 39px;
+  align-items: flex-end;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.group-3 {
+  flex-shrink: 0;
+  width: 66px;
+  height: 66px;
+  position: static;
+}
+.ellipse-8 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  left: 529.5px;
+  top: -50.85px;
+}
+.instagram {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 538.5px;
+  top: -41.46px;
+  overflow: visible;
+}
+.group-4 {
+  flex-shrink: 0;
+  width: 66px;
+  height: 66px;
+  position: static;
+}
+.ellipse-82 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  left: 634.5px;
+  top: -50.85px;
+}
+.facebook {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 643.5px;
+  top: -41.46px;
+  overflow: visible;
+}
+.group-5 {
+  flex-shrink: 0;
+  width: 66px;
+  height: 66px;
+  position: static;
+}
+.ellipse-83 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  left: 739.5px;
+  top: -50.85px;
+}
+.youtube {
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  left: 748.5px;
+  top: -41.46px;
+  overflow: visible;
+}
+.group-6 {
+  flex-shrink: 0;
+  width: 66px;
+  height: 66px;
+  position: static;
+}
+.ellipse-84 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  left: 844.5px;
+  top: -50.85px;
+}
+.twitter {
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  left: 854.5px;
+  top: -40.46px;
+  overflow: visible;
+}
